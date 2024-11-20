@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:toss_app/common/common.dart';
 
 class TossAppBar extends StatefulWidget {
+  static const double appBarHeight = 60;
   const TossAppBar({super.key});
 
   @override
@@ -14,7 +15,7 @@ class _TossAppBarState extends State<TossAppBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60,
+      height: TossAppBar.appBarHeight,
       color: context.appColors.appBarBackground,
       child: Row(
         children: [
