@@ -5,7 +5,7 @@ import 'package:toss_app/screen/main/tab/stock/f_stock.dart';
 import 'package:toss_app/screen/main/tab/tosspay/f_tosspay.dart';
 
 import 'all/f_all.dart';
-import 'befefit/f_benefit.dart';
+import 'benefit/f_benefit.dart';
 
 enum TabItem {
   home(Icons.home, '홈', HomeFragment()),
